@@ -1,6 +1,64 @@
 # seismic-tomography-models
+https://ds.iris.edu/ds/products/emc-earthmodels/
+new:
+53.  (next update)UU-P07 (Rocha et al. 2019) \
+Paper        : [Rocha et al., 2019]  \
+Download link: http://ds.iris.edu/spud/earthmodel/10131119 (netCDF binary of P velocity expressed as km/s)\
+Changes      : 
+
+54.  (next update)DET O X-P3 (Hosseini et al. 2020 ) \
+Paper        : [Hosseini et al., 2020]  \
+Download link:  (netCDF binary of P velocity expressed as km/s)\
+Changes      : 
+
+55.  LOWE (van Herwaarden et al. 2020 ) \
+Paper        : [van Herwaarden et al., 2020] https://doi.org/10.1093/gji/ggac122 \
+Download link: https://ds.iris.edu/ds/products/emc-lowe (netCDF binary of P velocity expressed as km/s)\
+Changes      : 
+
+56.   M25 \
+Paper        : [Lei et al., 2020] , https://doi.org/10.1093/gji/ggaa253 \
+Download link: https://ds.iris.edu/ds/products/emc-glad-m25 (netCDF binary of P velocity expressed as km/s)\
+Changes      : 
+
+57.   REVEAL \
+Paper        : [(Thrastarson et al., 2024] https://doi.org/10.1785/0120230273 \
+Download link: https://ds.iris.edu/ds/products/emc-reveal/ (netCDF binary of P velocity expressed as km/s)\
+Changes      : 
+
+57.   M35 \
+Paper        : [Congyue Cui et al., 2024]  https://doi.org/10.1093/gji/ggae270 \
+Download link: https://ds.iris.edu/ds/products/emc-glad-m35 (netCDF binary of P velocity expressed as km/s)\
+Changes      : rename variable "vp" to "v".
+
+34. SEMUCB-WM1\_dvs.nc\
+Paper        : [French and Romanowicz, 2014] https://doi.org/10.1093/gji/ggu334 \
+Download link: http://www.seismo.berkeley.edu/~barbara/REPRINTS/UCB_a3d_dist.SEMUCB-WM1.r20151019.tar.gz \
+Changes      : Use the program provided in the tar file, a 10km depth interval (from 60km to 2890km to avoid "nan"), 1 deg x 1 deg grid is created for dvs. This dvs is "the relative Voigt-average shear velocity perturbation relative to the reference 1D model data/model.ref". in this nc file, "v" represents "dvs". see https://github.com/shuleyu/seismic-tomography-models/blob/master/Processing/Create_SEMUCB-WM1_dvs.cpp
+
+58. GyPSuM\_vs.nc\
+Paper        : [Simmons et al., 2010] https://doi.org/10.1029/2010JB007631 \
+Download link: http://ds.iris.edu/spud/earthmodel/10131119 (netCDF binary of S velocity expressed as km/s)\
+Changes      : rename variable "vs" to "v".
 
 
+GyPSuM
+REVEAL point at:
+SEMUCB WM1(2014)
+REVEAL
+M25(2020) 
+ 
+M25 point at:
+GAP-P4(2013) SEMUCB-WM1(2014) TX2015 UU-P07(2018) 
+
+M35 point at:
+M35(2024) GyPSuM(2010) Tx2019 REVEAL(2024)
+
+this github point at:
+GyPSuM(2010) SEMUCB-WM1(2014) Tx2019 M25(2020) REVEAL(2024) M35(2024)
+
+
+# seismic-tomography-models
 ![Summary](https://github.com/shuleyu/seismic-tomography-models/blob/master/Summary.txt)
 ![alt text](https://github.com/shuleyu/seismic-tomography-models/blob/master/src/utils/largePlot.png)
 
