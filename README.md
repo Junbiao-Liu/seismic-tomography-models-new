@@ -49,7 +49,7 @@ Download link: https://ds.iris.edu/ds/products/emc-3dlgl-tpesv/ (netCDF binary o
 Changes      : (50-1000KM)
 
 60.  (next update)cam2022\
-Paper        : [Simmons et al., 2010]  https://doi.org/10.1016/j.epsl.2023.118525 \
+Paper        : [Keith Priestley et al., 2024]  https://doi.org/10.1016/j.epsl.2023.118525 \
 Download link: https://ds.iris.edu/ds/products/emc-cam2022/ (netCDF binary of S velocity expressed as km/s)\
 Changes      : (40-300KM)
 
