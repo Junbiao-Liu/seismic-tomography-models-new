@@ -31,7 +31,7 @@ Changes      :
 57.   M35 \
 Paper        : [Congyue Cui et al., 2024]  https://doi.org/10.1093/gji/ggae270 \
 Download link: https://ds.iris.edu/ds/products/emc-glad-m35 (netCDF binary of P、S velocity expressed as km/s)\
-Changes      : rename variable "vp" to "v".
+Changes      : 
 
 34. SEMUCB-WM1\_dvs.nc\
 Paper        : [French and Romanowicz, 2014] https://doi.org/10.1093/gji/ggu334 \
@@ -43,18 +43,14 @@ Paper        : [Simmons et al., 2010] https://doi.org/10.1029/2010JB007631 \
 Download link: [http://ds.iris.edu/spud/earthmodel/10131119](https://ds.iris.edu/ds/products/emc-gypsum/) (netCDF binary of S velocity expressed as km/s)\
 Changes      : 
 
-
-GyPSuM
 REVEAL point at:
-SEMUCB WM1(2014)
-REVEAL
-M25(2020) 
+SEMUCB-WM1(2014) M25(2020) 
  
 M25 point at:
 GAP-P4(2013) SEMUCB-WM1(2014) TX2015 UU-P07(2018) 
 
 M35 point at:
-M35(2024) GyPSuM(2010) Tx2019 REVEAL(2024)
+GyPSuM(2010) Tx2019 M25(2020) REVEAL(2024) 
 
 this github point at:
 GyPSuM(2010) SEMUCB-WM1(2014) Tx2019 M25(2020) REVEAL(2024) M35(2024)
