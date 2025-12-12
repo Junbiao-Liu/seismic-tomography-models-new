@@ -7,7 +7,7 @@ Dependencies are:
 A easy start:
 
 ```
-$ git clone --recursive https://github.com/shuleyu/seismic-tomography-models.git
+$ git clone --recursive https://github.com/Junbiao-Liu/seismic-tomography-models.git
 $ cd ./seismic-tomography-models/src
 $ make
 $ ./example.out
