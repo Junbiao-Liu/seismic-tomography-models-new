@@ -5,7 +5,7 @@ new: convert_v_to_dv\
 
 53.  (next update)UU-P07  \
 Paper        : [Rocha et al., 2019]  \
-Download link: http://ds.iris.edu/spud/earthmodel/10131119 (netCDF binary of P、S velocity expressed as km/s)\
+Download link:  (netCDF binary of P、S velocity expressed as km/s)\
 Changes      : 
 
 54.  (next update)DET O X-P3  \
