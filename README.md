@@ -54,17 +54,13 @@ Download link: https://ds.iris.edu/ds/products/emc-cam2022/ (netCDF binary of S 
 Changes      : (40-300KM)
 
 
-REVEAL point at:
-SEMUCB-WM1(2014) M25(2020) 
- 
-M25 point at:
-GAP-P4(2013) SEMUCB-WM1(2014) TX2015 UU-P07(2018) 
+REVEAL points to: SEMUCB-WM1 (2014), M25 (2020)
 
-M35 point at:
-GyPSuM(2010) Tx2019 M25(2020) REVEAL(2024) 
+M25 points to: GAP-P4 (2013), SEMUCB-WM1 (2014), TX2015, UU-P07 (2018)
 
-this github point at:
-GyPSuM(2010) SEMUCB-WM1(2014) Tx2019 M25(2020) REVEAL(2024) M35(2024)
+M35 points to: GyPSuM (2010), TX2019, M25 (2020), REVEAL (2024)
+
+This GitHub repository points to: GyPSuM (2010), SEMUCB-WM1 (2014), TX2019, M25 (2020), REVEAL (2024), M35 (2024)
 
 
 # seismic-tomography-models
