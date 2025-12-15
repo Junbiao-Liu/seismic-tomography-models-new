@@ -3,52 +3,62 @@
 https://ds.iris.edu/ds/products/emc-earthmodels/ \
 new: convert_v_to_dv\
 
-53.  (next update)UU-P07  \
+53.  UU-P07: UUP07.nc  \
 Paper        : [Rocha et al., 2019]  \
 Download link:  (netCDF binary of P、S velocity expressed as km/s)\
-Changes      : 
+Changes      :  convert vp to dvp
 
 54.  (next update)DET O X-P3  \
 Paper        : [Hosseini et al., 2020]  \
 Download link:  (netCDF binary of P、S velocity expressed as km/s)\
 Changes      : 
 
-55.  LOWE  \
+55.   (next update)LOWE  \
 Paper        : [van Herwaarden et al., 2020] https://doi.org/10.1093/gji/ggac122 \
 Download link: https://ds.iris.edu/ds/products/emc-lowe (netCDF binary of S velocity expressed as km/s)\
 Changes      : 
 
-56.   M25 \
+56.   M25: glad-m25-dvp.nc and glad-m25-dvs.nc \
 Paper        : [Lei et al., 2020] , https://doi.org/10.1093/gji/ggaa253 \
 Download link: https://ds.iris.edu/ds/products/emc-glad-m25 (netCDF binary of P、S velocity expressed as km/s)\
-Changes      : 
+Changes      :    vs = np.sqrt((2 * vsv**2 + vsh**2) / 3) \
+                  vp = np.sqrt((3 * vpv**2 + 2 * vph**2) / 5)  \
+                  S、P wave velocity anomalies are expressed as percentage deviations from the laterally averaged velocity at each depth \
+                  Velocity anomalies shown as dVs(%) and dVp(%)
+                  
 
-57.   REVEAL \
+58.   REVEAL: reveal-dv.nc \
 Paper        : [(Thrastarson et al., 2024] https://doi.org/10.1785/0120230273 \
 Download link: https://ds.iris.edu/ds/products/emc-reveal/ (netCDF binary of P、S velocity expressed as km/s)\
-Changes      : 
+Changes      :       vs = np.sqrt((2 * vsv**2 + vsh**2) / 3) \
+                    vp = vpv  \
+                    S、P wave velocity anomalies are expressed as percentage deviations from the laterally averaged velocity at each depth \
+                    Velocity anomalies shown as dVs(%) and dVp(%)
 
-58.   M35 \
+60.   M35: glad-m35-dv \
 Paper        : [Congyue Cui et al., 2024]  https://doi.org/10.1093/gji/ggae270 \
 Download link: https://ds.iris.edu/ds/products/emc-glad-m35 (netCDF binary of P、S velocity expressed as km/s)\
-Changes      : 
+Changes      :      vs = np.sqrt((2 * vsv**2 + vsh**2) / 3) \
+                    vp = np.sqrt((3 * vpv**2 + 2 * vph**2) / 5)  \
+                    S、P wave velocity anomalies are expressed as percentage deviations from the laterally averaged velocity at each depth \
+                    Velocity anomalies shown as dVs(%) and dVp(%)
 
 34. SEMUCB-WM1\_dvs.nc\
 Paper        : [French and Romanowicz, 2014] https://doi.org/10.1093/gji/ggu334 \
 Download link: http://www.seismo.berkeley.edu/~barbara/REPRINTS/UCB_a3d_dist.SEMUCB-WM1.r20151019.tar.gz \
 Changes      : Use the program provided in the tar file, a 10km depth interval (from 60km to 2890km to avoid "nan"), 1 deg x 1 deg grid is created for dvs. This dvs is "the relative Voigt-average shear velocity perturbation relative to the reference 1D model data/model.ref". in this nc file, "v" represents "dvs". see https://github.com/shuleyu/seismic-tomography-models/blob/master/Processing/Create_SEMUCB-WM1_dvs.cpp
 
-1. GyPSuM\
+59. GYPSUM_percent.nc\
 Paper        : [Simmons et al., 2010] https://doi.org/10.1029/2010JB007631 \
 Download link: https://ds.iris.edu/ds/products/emc-gypsum/ (netCDF binary of S velocity expressed as km/s)\
-Changes      : 
+Changes      : do nothing, only download.
 
-59.  (next update)3DLGL-TPESv(V2022)\
+60.  (next update)3DLGL-TPESv(V2022)\
 Paper        : [Debayle et al., 2016] https://doi.org/10.1002/2015GL067329 \
 Download link: https://ds.iris.edu/ds/products/emc-3dlgl-tpesv/ (netCDF binary of S velocity expressed as km/s)\
 Changes      : (50-1000KM)
 
-60.  (next update)cam2022\
+61.  (next update)cam2022\
 Paper        : [Keith Priestley et al., 2024]  https://doi.org/10.1016/j.epsl.2023.118525 \
 Download link: https://ds.iris.edu/ds/products/emc-cam2022/ (netCDF binary of S velocity expressed as km/s)\
 Changes      : (40-300KM)
