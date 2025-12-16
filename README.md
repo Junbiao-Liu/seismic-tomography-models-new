@@ -76,7 +76,7 @@ Changes      :
 
 REVEAL points to: SEMUCB-WM1 (2014), M25 (2020)
 
-M25 points to: GAP-P4 (2013), SEMUCB-WM1 (2014), TX2015, UU-P07 (2018)
+M25 points to: GAP-P4 (2013), SEMUCB-WM1 (2014), TX2015, UU-P07
 
 M35 points to: GyPSuM (2010), TX2019, M25 (2020), REVEAL (2024)
 
