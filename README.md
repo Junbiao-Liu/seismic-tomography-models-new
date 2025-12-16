@@ -3,7 +3,7 @@
 https://ds.iris.edu/ds/products/emc-earthmodels/ \
 new: convert_v_to_dv\
 
-New Python script converts v-components to dv-components and automatically transforms global model longitude coordinates from any format to the standard -180° to 180° range, and adds comprehensive metadata for enhanced ParaView visualization including time dimensions, spatial coordinates, and variable attributes.
+New Python script converts v-components to dv-components and automatically transforms global model longitude coordinates from any format to the standard -180° to 180° range, and adds metadata for ParaView visualization.
 
 53. MITP08-dvp.nc\
 Paper        : [Li et al., 2008] https://doi.org/10.1029/2007GC001806 \
