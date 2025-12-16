@@ -23,7 +23,7 @@ Changes      :    vs = np.sqrt((2 * vsv**2 + vsh**2) / 3) \
                   vp = np.sqrt((3 * vpv**2 + 2 * vph**2) / 5)  \
                   S、P wave velocity anomalies are expressed as percentage deviations from the laterally averaged velocity at each depth \
                   Velocity anomalies shown as dVs(%) and dVp(%)
-      convert (depth, lon, lat) to  (depth, lat, lon)
+                  convert (depth, lon, lat) to  (depth, lat, lon)
                   
 57.   REVEAL: reveal-dv.nc \
 Paper        : [(Thrastarson et al., 2024] https://doi.org/10.1785/0120230273 \
@@ -32,7 +32,7 @@ Changes      :       vs = np.sqrt((2 * vsv**2 + vsh**2) / 3) \
                     vp = vpv  \
                     S、P wave velocity anomalies are expressed as percentage deviations from the laterally averaged velocity at each depth \
                     Velocity anomalies shown as dVs(%) and dVp(%)
-      convert (depth, lon, lat) to  (depth, lat, lon)
+                    convert (depth, lon, lat) to  (depth, lat, lon)
 
 59.   M35: glad-m35-dv.nc \
 Paper        : [Congyue Cui et al., 2024]  https://doi.org/10.1093/gji/ggae270 \
@@ -41,7 +41,7 @@ Changes      :      vs = np.sqrt((2 * vsv**2 + vsh**2) / 3) \
                     vp = np.sqrt((3 * vpv**2 + 2 * vph**2) / 5)  \
                     S、P wave velocity anomalies are expressed as percentage deviations from the laterally averaged velocity at each depth \
                     Velocity anomalies shown as dVs(%) and dVp(%)
-      convert (depth, lon, lat) to  (depth, lat, lon)
+                    convert (depth, lon, lat) to  (depth, lat, lon)
 
 61. SEMUCB-WM1-dvs.nc\
 Paper        : [French and Romanowicz, 2014] https://doi.org/10.1093/gji/ggu334 \
