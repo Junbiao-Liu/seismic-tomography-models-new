@@ -22,7 +22,7 @@ Download link: https://ds.iris.edu/ds/products/emc-glad-m25 (netCDF binary of P„
 Changes      :    vs = np.sqrt((2 * vsv**2 + vsh**2) / 3) \
                   vp = np.sqrt((3 * vpv**2 + 2 * vph**2) / 5)  \
                   S„ÄÅP wave velocity anomalies are expressed as percentage deviations from the laterally averaged velocity at each depth \
-                  Velocity anomalies shown as dVs(%) and dVp(%)
+                  Velocity anomalies shown as dVs(%) and dVp(%) \
                   convert (depth, lon, lat) to  (depth, lat, lon)
                   
 57.   REVEAL: reveal-dv.nc \
@@ -31,7 +31,7 @@ Download link: https://ds.iris.edu/ds/products/emc-reveal/ (netCDF binary of P„Ä
 Changes      :       vs = np.sqrt((2 * vsv**2 + vsh**2) / 3) \
                     vp = vpv  \
                     S„ÄÅP wave velocity anomalies are expressed as percentage deviations from the laterally averaged velocity at each depth \
-                    Velocity anomalies shown as dVs(%) and dVp(%)
+                    Velocity anomalies shown as dVs(%) and dVp(%) \
                     convert (depth, lon, lat) to  (depth, lat, lon)
 
 59.   M35: glad-m35-dv.nc \
@@ -40,7 +40,7 @@ Download link: https://ds.iris.edu/ds/products/emc-glad-m35 (netCDF binary of P„
 Changes      :      vs = np.sqrt((2 * vsv**2 + vsh**2) / 3) \
                     vp = np.sqrt((3 * vpv**2 + 2 * vph**2) / 5)  \
                     S„ÄÅP wave velocity anomalies are expressed as percentage deviations from the laterally averaged velocity at each depth \
-                    Velocity anomalies shown as dVs(%) and dVp(%)
+                    Velocity anomalies shown as dVs(%) and dVp(%) \
                     convert (depth, lon, lat) to  (depth, lat, lon)
 
 61. SEMUCB-WM1-dvs.nc\
