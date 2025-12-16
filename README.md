@@ -11,7 +11,7 @@ Download link: https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement
 Changes      : Input is MITP08_dvp.nc, rename variable "v" to "dVp(%)", add metadata, transforms global model longitude coordinates from any format to the standard -180° to 180° range.
 
 54.  UU-P07: UUP07-dvp.nc  \
-Paper        : [Rocha et al., 2019]  \
+Paper        : [Amaru, M.L. et al., 2007]  https://dspace.library.uu.nl/handle/1874/19338\
 Download link:  (netCDF binary of P、S velocity expressed as km/s)\
 Changes      :  Input is UUP07_dvp.nc, rename dvp to dVp(%), add metadata, transforms global model longitude coordinates from any format to the standard -180° to 180° range.
 
