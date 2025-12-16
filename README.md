@@ -84,7 +84,7 @@ M35 points to: GyPSuM (2010), TX2019, M25 (2020), REVEAL (2024)
 This GitHub repository points to: GyPSuM (2010), SEMUCB-WM1 (2014), TX2019, M25 (2020), REVEAL (2024), M35 (2024)
 
 visualization method:
-![alt text](https://github.com/Junbiao-Liu/seismic-tomography-models-new/visualization_by_paraview.png)
+![alt text](https://github.com/Junbiao-Liu/seismic-tomography-models-new/blob/master/visualization_by_paraview.png)
 
 
 
