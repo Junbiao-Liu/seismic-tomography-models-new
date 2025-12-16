@@ -31,7 +31,7 @@ Changes      :       vs = np.sqrt((2 * vsv**2 + vsh**2) / 3) \
                     S、P wave velocity anomalies are expressed as percentage deviations from the laterally averaged velocity at each depth \
                     Velocity anomalies shown as dVs(%) and dVp(%)
 
-57.   M35: glad-m35-dv \
+57.   M35: glad-m35-dv.nc \
 Paper        : [Congyue Cui et al., 2024]  https://doi.org/10.1093/gji/ggae270 \
 Download link: https://ds.iris.edu/ds/products/emc-glad-m35 (netCDF binary of P、S velocity expressed as km/s)\
 Changes      :      vs = np.sqrt((2 * vsv**2 + vsh**2) / 3) \
