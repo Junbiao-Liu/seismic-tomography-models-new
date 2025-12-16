@@ -1,7 +1,4 @@
-# seismic-tomography-models
-
-https://ds.iris.edu/ds/products/emc-earthmodels/ \
-new: convert_v_to_dv\
+# seismic-tomography-models-new
 
 New Python script converts v-components to dv-components and automatically transforms global model longitude coordinates from any format to the standard -180° to 180° range, and adds metadata for ParaView visualization.
 convert (depth, lon, lat) to  (depth, lat, lon)
@@ -85,6 +82,12 @@ M25 points to: GAP-P4 (2013), SEMUCB-WM1 (2014), TX2015, UU-P07
 M35 points to: GyPSuM (2010), TX2019, M25 (2020), REVEAL (2024)
 
 This GitHub repository points to: GyPSuM (2010), SEMUCB-WM1 (2014), TX2019, M25 (2020), REVEAL (2024), M35 (2024)
+
+visualization method:
+![alt text](https://github.com/Junbiao-Liu/seismic-tomography-models-new/visualization_by_paraview.png)
+
+
+
 
 
 # seismic-tomography-models
