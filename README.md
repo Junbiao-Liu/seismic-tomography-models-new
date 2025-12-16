@@ -3,17 +3,17 @@
 https://ds.iris.edu/ds/products/emc-earthmodels/ \
 new: convert_v_to_dv\
 
-New Python script converts v-components to dv-components and automatically transforms global model longitude coordinates from any format to the standard -180° to 180° range.
+New Python script converts v-components to dv-components and automatically transforms global model longitude coordinates from any format to the standard -180° to 180° range, and adds comprehensive metadata for enhanced ParaView visualization including time dimensions, spatial coordinates, and variable attributes.
 
-5. MITP08\_dvp.nc\
+5. MITP08-dvp.nc\
 Paper        : [Li et al., 2008] https://doi.org/10.1029/2007GC001806 \
 Download link: https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2007GC001806&file=ggge1202-sup-0002-ds01.txt.gz \
-Changes      : rename variable "v" to "dVp(%)", transforms global model longitude coordinates from any format to the standard -180° to 180° range.
+Changes      : rename variable "v" to "dVp(%)", add metadata, transforms global model longitude coordinates from any format to the standard -180° to 180° range.
 
-53.  UU-P07: UUP07.nc  \
+53.  UU-P07: UUP07-dvp.nc  \
 Paper        : [Rocha et al., 2019]  \
 Download link:  (netCDF binary of P、S velocity expressed as km/s)\
-Changes      :  do not need convert, exist dvp, rename dvp to dVp(%), transforms global model longitude coordinates from any format to the standard -180° to 180° range.
+Changes      :  do not need convert, exist dvp, rename dvp to dVp(%), add metadata, transforms global model longitude coordinates from any format to the standard -180° to 180° range.
 
 54.  (next update)DET O X-P3  \
 Paper        : [Hosseini et al., 2020]  \
