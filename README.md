@@ -4,6 +4,7 @@ https://ds.iris.edu/ds/products/emc-earthmodels/ \
 new: convert_v_to_dv\
 
 New Python script converts v-components to dv-components and automatically transforms global model longitude coordinates from any format to the standard -180° to 180° range, and adds metadata for ParaView visualization.
+convert (depth, lon, lat) to  (depth, lat, lon)
 
 53. MITP08-dvp.nc\
 Paper        : [Li et al., 2008] https://doi.org/10.1029/2007GC001806 \
@@ -22,54 +23,57 @@ Changes      :    vs = np.sqrt((2 * vsv**2 + vsh**2) / 3) \
                   vp = np.sqrt((3 * vpv**2 + 2 * vph**2) / 5)  \
                   S、P wave velocity anomalies are expressed as percentage deviations from the laterally averaged velocity at each depth \
                   Velocity anomalies shown as dVs(%) and dVp(%)
+      convert (depth, lon, lat) to  (depth, lat, lon)
                   
-56.   REVEAL: reveal-dv.nc \
+57.   REVEAL: reveal-dv.nc \
 Paper        : [(Thrastarson et al., 2024] https://doi.org/10.1785/0120230273 \
 Download link: https://ds.iris.edu/ds/products/emc-reveal/ (netCDF binary of P、S velocity expressed as km/s)\
 Changes      :       vs = np.sqrt((2 * vsv**2 + vsh**2) / 3) \
                     vp = vpv  \
                     S、P wave velocity anomalies are expressed as percentage deviations from the laterally averaged velocity at each depth \
                     Velocity anomalies shown as dVs(%) and dVp(%)
+      convert (depth, lon, lat) to  (depth, lat, lon)
 
-57.   M35: glad-m35-dv.nc \
+59.   M35: glad-m35-dv.nc \
 Paper        : [Congyue Cui et al., 2024]  https://doi.org/10.1093/gji/ggae270 \
 Download link: https://ds.iris.edu/ds/products/emc-glad-m35 (netCDF binary of P、S velocity expressed as km/s)\
 Changes      :      vs = np.sqrt((2 * vsv**2 + vsh**2) / 3) \
                     vp = np.sqrt((3 * vpv**2 + 2 * vph**2) / 5)  \
                     S、P wave velocity anomalies are expressed as percentage deviations from the laterally averaged velocity at each depth \
                     Velocity anomalies shown as dVs(%) and dVp(%)
+      convert (depth, lon, lat) to  (depth, lat, lon)
 
-58. SEMUCB-WM1-dvs.nc\
+61. SEMUCB-WM1-dvs.nc\
 Paper        : [French and Romanowicz, 2014] https://doi.org/10.1093/gji/ggu334 \
 Download link: http://www.seismo.berkeley.edu/~barbara/REPRINTS/UCB_a3d_dist.SEMUCB-WM1.r20151019.tar.gz \
 Changes      : Input is SEMUCB-WM1_dvs.nc, rename variable "v" to "dVs(%)", add metadata.
 
-59. GYPSUM-dv.nc\
+62. GYPSUM-dv.nc\
 Paper        : [Simmons et al., 2010] https://doi.org/10.1029/2010JB007631 \
 Download link: https://ds.iris.edu/ds/products/emc-gypsum/ (netCDF binary of P、S velocity expressed as km/s)\
 Changes      : Input is GYPSUM_percent.nc, rename dvp and dvs to dVp(%) and dVs(%).
 
-60. TX2019slab-dv.nc\
+63. TX2019slab-dv.nc\
 Paper        : [Lu, C et al., 2010] https://doi.org/https://doi.org/10.1029/2019JB017448 \
 Download link: https://ds.iris.edu/ds/products/emc-tx2019slab/ (netCDF binary of P、S velocity expressed as km/s)\
 Changes      : Input is TX2019slab_percent.nc, rename dvp and dvs to dVp(%) and dVs(%).
 
-61.  (next update)3DLGL-TPESv(V2022)\
+64.  (next update)3DLGL-TPESv(V2022)\
 Paper        : [Debayle et al., 2016] https://doi.org/10.1002/2015GL067329 \
 Download link: https://ds.iris.edu/ds/products/emc-3dlgl-tpesv/ (netCDF binary of S velocity expressed as km/s)\
 Changes      : (50-1000KM)
 
-62.  (next update)cam2022\
+65.  (next update)cam2022\
 Paper        : [Keith Priestley et al., 2024]  https://doi.org/10.1016/j.epsl.2023.118525 \
 Download link: https://ds.iris.edu/ds/products/emc-cam2022/ (netCDF binary of S velocity expressed as km/s)\
 Changes      : (40-300KM)
 
-63.  (next update)DET O X-P3  \
+66.  (next update)DET O X-P3  \
 Paper        : [Hosseini et al., 2020]  \
 Download link:  (netCDF binary of P、S velocity expressed as km/s)\
 Changes      : 
 
-64.   (next update)LOWE  \
+67.   (next update)LOWE  \
 Paper        : [van Herwaarden et al., 2020] https://doi.org/10.1093/gji/ggac122 \
 Download link: https://ds.iris.edu/ds/products/emc-lowe (netCDF binary of S velocity expressed as km/s)\
 Changes      :
