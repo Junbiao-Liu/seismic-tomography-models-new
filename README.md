@@ -1,7 +1,7 @@
 # seismic-tomography-models-new
 
 New Python script converts v-components to dv-components and automatically transforms global model longitude coordinates from any format to the standard -180° to 180° range, and adds metadata for ParaView visualization.
-convert (depth, lon, lat) to  (depth, lat, lon)
+(depth, lat, lon) will add metadata for paraview visualization.
 
 53. MITP08-dvp.nc\
 Paper        : [Li et al., 2008] https://doi.org/10.1029/2007GC001806 \
@@ -20,16 +20,16 @@ Changes      :    vs = np.sqrt((2 * vsv**2 + vsh**2) / 3) \
                   vp = np.sqrt((3 * vpv**2 + 2 * vph**2) / 5)  \
                   S、P wave velocity anomalies are expressed as percentage deviations from the laterally averaged velocity at each depth \
                   Velocity anomalies shown as dVs(%) and dVp(%) \
-                  convert (depth, lon, lat) to  (depth, lat, lon)
+                 
                   
 57.   REVEAL: reveal-dv.nc \
 Paper        : [(Thrastarson et al., 2024] https://doi.org/10.1785/0120230273 \
 Download link: https://ds.iris.edu/ds/products/emc-reveal/ (netCDF binary of P、S velocity expressed as km/s)\
-Changes      :       vs = np.sqrt((2 * vsv**2 + vsh**2) / 3) \
+Changes      :      vs = np.sqrt((2 * vsv**2 + vsh**2) / 3) \
                     vp = vpv  \
                     S、P wave velocity anomalies are expressed as percentage deviations from the laterally averaged velocity at each depth \
                     Velocity anomalies shown as dVs(%) and dVp(%) \
-                    convert (depth, lon, lat) to  (depth, lat, lon)
+                    
 
 59.   M35: glad-m35-dv.nc \
 Paper        : [Congyue Cui et al., 2024]  https://doi.org/10.1093/gji/ggae270 \
@@ -38,7 +38,7 @@ Changes      :      vs = np.sqrt((2 * vsv**2 + vsh**2) / 3) \
                     vp = np.sqrt((3 * vpv**2 + 2 * vph**2) / 5)  \
                     S、P wave velocity anomalies are expressed as percentage deviations from the laterally averaged velocity at each depth \
                     Velocity anomalies shown as dVs(%) and dVp(%) \
-                    convert (depth, lon, lat) to  (depth, lat, lon)
+                    
 
 61. SEMUCB-WM1-dvs.nc\
 Paper        : [French and Romanowicz, 2014] https://doi.org/10.1093/gji/ggu334 \
